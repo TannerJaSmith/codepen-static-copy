@@ -1,0 +1,61 @@
+.onePen{
+  background-color: #2d303a;
+  width: 100%;
+  border-radius: 6px;
+}
+.onePen > .link{
+    
+}
+.stats{
+  margin-left: 10px;
+  padding-bottom: 5px;
+  border-top: 1px solid #444857;
+  margin-right: 8px;
+}
+.stat{
+  text-decoration: none;
+  color: #aaaebc;
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px
+}
+.userIcon{
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.person_txt{
+  width:100%;
+}
+.title-name{
+  display: inline-block;
+  font-family: 'Lato';
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.nameAndIcon{
+  display: inline-block;
+}
+.item-title{
+  
+  margin: 0px 0 .9px 0;
+  text-decoration: none;
+}
+.user{
+  
+  padding: 0px;
+  margin-bottom: 2px;
+}
+.user a{
+  
+  text-decoration: none;
+  color: #aaaebc;
+  font-size: .95rem;
+}
+.item-title a{
+  
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            CodePen
+        </title>
+        <link rel="icon" type="image/png" class="favicon" href="assets/imgs/favicon.png">
+        <link rel="stylesheet" media="screen" href="assets/css/site.css">
+        <link rel="stylesheet" media="screen" href="assets/css/onePen.css">
+        <link rel="stylesheet" media="screen" href="assets/css/fonts.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    </head>
+    <body>
+        <header id="main-Nav" class="main-Nav">
+            <div class="nav-content">
+                <h1 class="Logo">
+                    <a class="Logo-Large"><img src="assets/imgs/logo.png"></a>
+                </h1>
+                <div>
+                    <div class="Create_root">
+                        <h2 class="main-menu-create">Create</h2>
+                        <ul class="Create_menu">
+                            <li>
+                                <img src="assets/imgs/pen.png">
+                                <a href="/pen/" class="create new-button Create_pen">Pen</a>
+                                <button class="Create_template" data-test-id="new-pen-from-template">from template <i class="fas fa-chevron-down"></i></button>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/project.png">
+                                <a href="/project/" class="create new-button Create_project">Project</a>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/post.png">
+                                <a href="/write/" class="create new-button Create_post">Post</a>
+                            </li>
+                            <li>
+                                <img src="assets/imgs/collection.png">
+                                <a class="create new-button Create_collection">Collection</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="Your_root">
+                        <h2 class="main-menu-your">YOUR</h2>
+                        <ul class="Create_menu">
+                            <li>
+                                <a href="#" class="create new-button">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="#" class="create new-button">Profile</a>
+                            </li>
+                            <li>
+                                <a class="create new-button">Pinned Items</a>
+                            </li>
+                            <li>
+                                <a class="create new-button">Activity</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="explore_root">
+                        <h2 class="main-menu-explore">Explore</h2>
+                        <ul class="Explore_menu">
+                            <li>
+                                <a href="#" class="create new-button">Picked</a>
+                            </li>
+                            <li>
+                                <a href="#" class="create new-button">Popular</a>
+                            </li>
+                            <li>
+                                <a class="create new-button">Following</a>
+                            </li>
+                            <li>
+                                <a class="create new-button">Topics</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="grow_root">
+                        <h2 class="main-menu-grow">Grow</h2>
+                        <ul class="Grow_menu">
+                            <li>
+                                <a href="#" class="create new-button">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="create new-button">CodePen<span class="badge badge-pro">PRO</span></a>
+                            </li>
+                            <li>
+                                <a class="create new-button">Challenges</a>
+                            </li>
+                            <li>
+                                <a class="create new-button thin">Meetups</a>
+                            </li>
+                            <li>
+                                <a class="create new-button thin">Newsletter</a>
+                            </li>
+                            <li>
+                                <a class="create new-button thin">Blog</a>
+                            </li>
+                            <li>
+                                <a class="create new-button thin">Docs&Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="search-and-user">
+            <div class="search_form_div">
+                <form class="search_form" aria-labelledby="search-title">
+                    <label class="search-input-wrap">
+                        <!--<h1 id="search-title" class="screen-reader-text">Search</h1>-->
+                        <i class="fas fa-search searchIcon"></i>
+                        <input type="search" name="q" class="search-input" placeholder="Search CodePen..." data-test-id="search-input">
+                    </label>
+                </form>
+                <button class="UserMenu_btn">
+                    <img src="assets/imgs/avatar.png" class="user-avatar" alt="User Avatar" data-test-id="user-avatar" width="45" height="45">
+                </button>
+            </div>
+        </div>
+        <div class="picked_pens">
+            <b><h1 class="picked_pens_title">Picked Pens</h1></b>
+            <h3 class="picked_pens_view_more">View more pens <i class="fas fa-arrow-right"></i></h3>
+            <div class="pen-grid">
+                <div class="onePen">
+                    <a class="Link">
+                        <span></span>
+                    </a>
+                    <img class="projIMG" src="assets/imgs/1.png">
+                    <div class="person_txt">
+                        <div class="nameAndIcon">
+                            <div class="avatar">
+                                <a href="#" class="usernamelink">
+                                    <img class="userIcon" src="https://s.cdpn.io/profiles/user/1683473/80.jpg?1548608866" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title-name">
+                            <h3 class="item-title">
+                                <a href="https://codepen.io/plasm/pen/VJYaQg" title="Attractor - MatterJS">
+                                    Rocky Mountain High - svg css animation 
+                                </a>
+                            </h3>
+                            <div class="user">
+                                <a class="username" href="#">       
+                                    <span>Kendall strautman</span>      
+                                </a>     
+                            </div>
+                        </div>
+                        <div class = "stats">
+                            <a class="stat" href="#">
+                                <i class="fas fa-eye"></i>
+                                26
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-comment-alt"></i>
+                                0
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-heart"></i>
+                                <span class="hidden"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="onePen">
+                    <a class="Link">
+                        <span></span>
+                    </a>
+                    <img class="projIMG" src="assets/imgs/2.png">
+                    <div class="person_txt">
+                        <div class="nameAndIcon">
+                            <div class="avatar">
+                                <a href="#" class="usernamelink">
+                                    <img class="userIcon" src="https://gravatar.com/avatar/d2cd21fb132b38673a47405e20b496b8?s=80&d=https://static.codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title-name">
+                            <h3 class="item-title">
+                                <a href="https://codepen.io/plasm/pen/VJYaQg" title="Attractor - MatterJS">                              
+                                    Underwear Boxes | three.js 
+                                </a>
+                            </h3>
+                            <div class="user">
+                                <a class="username" href="#">       
+                                    <span>Johan Karlsson <span class="badge badge-pro">PRO</span></span>      
+                                </a>     
+                            </div>
+                        </div>
+                        <div class = "stats">
+                            <a class="stat" href="#">
+                                <i class="fas fa-eye"></i>
+                                18
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-comment-alt"></i>
+                                0
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-heart"></i>
+                                
+                                <span class="hidden"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="onePen">
+                    <a class="Link">
+                        <span></span>
+                    </a>
+                    <img class="projIMG" src="assets/imgs/3.png" >
+                    <div class="person_txt">
+                        <div class="nameAndIcon">
+                            <div class="avatar">
+                                <a href="#" class="usernamelink">
+                                    <img class="userIcon" src="https://s.cdpn.io/profiles/user/3296346/80.jpg?1560266424" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title-name">
+                            <h3 class="item-title">
+                                <a href="https://codepen.io/plasm/pen/VJYaQg" title="Attractor - MatterJS">
+                                React& TailwindCss - Collapsable navb...
+                                </a>
+                            </h3>
+                            <div class="user">
+                                <a class="username" href="#">       
+                                    <span>Fabio</span>      
+                                </a>     
+                            </div>
+                        </div>
+                        <div class = "stats">
+                            <a class="stat" href="#">
+                                <i class="fas fa-eye"></i>
+                                69
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-comment-alt"></i>
+                                0
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-heart"></i>
+                                
+                                <span class="hidden"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="onePen">
+                    <a class="Link">
+                        <span></span>
+                    </a>
+                    <img class="projIMG" src="assets/imgs/4.png" >
+                    <div class="person_txt">
+                        <div class="nameAndIcon">
+                            <div class="avatar">
+                                <a href="#" class="usernamelink">
+                                    <img class="userIcon" src="https://s.cdpn.io/profiles/user/2017/80.jpg?4" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title-name">
+                            <h3 class="item-title">
+                                <a href="https://codepen.io/plasm/pen/VJYaQg" title="Attractor - MatterJS">                        
+                                    Johnson solid J12: triangular bipyramid 
+                                </a>
+                            </h3>
+                            <div class="user">
+                                <a class="username" href="#">       
+                                    <span>Anna Tudor <span class="badge badge-pro">PRO</span></span>      
+                                </a>     
+                            </div>
+                        </div>
+                        <div class = "stats">
+                            <a class="stat" href="#">
+                                <i class="fas fa-eye"></i>
+                                80
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-comment-alt"></i>
+                                0
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-heart"></i>
+                                3
+                                <span class="hidden"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="onePen">
+                    <a class="Link">
+                        <span></span>
+                    </a>
+                    <img class="projIMG" src="assets/imgs/5.png" >
+                    <div class="person_txt">
+                        <div class="nameAndIcon">
+                            <div class="avatar">
+                                <a href="#" class="usernamelink">
+                                    <img class="userIcon" src="https://static.codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title-name">
+                            <h3 class="item-title">
+                                <a href="https://codepen.io/plasm/pen/VJYaQg" title="Attractor - MatterJS">
+                                Zdog - w-spin
+                                </a>
+                            </h3>
+                            <div class="user">
+                                <a class="username" href="#">       
+                                    <span>Forrest Oliphant</span>      
+                                </a>     
+                            </div>
+                        </div>
+                        <div class = "stats">
+                            <a class="stat" href="#">
+                                <i class="fas fa-eye"></i>
+                                560
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-comment-alt"></i>
+                                0
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-heart"></i>
+                                10
+                                <span class="hidden"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="onePen">
+                    <a class="Link">
+                        <span></span>
+                    </a>
+                    <img class="projIMG" src="assets/imgs/6.png" >
+                    <div class="person_txt">
+                        <div class="nameAndIcon">
+                            <div class="avatar">
+                                <a href="#" class="usernamelink">
+                                    <img class="userIcon" src="https://s.cdpn.io/profiles/user/2302880/80.jpg?1546238993" alt="" width="40" height="40">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title-name">
+                            <h3 class="item-title">
+                                <a href="https://codepen.io/plasm/pen/VJYaQg" title="Attractor - MatterJS">
+                                slide from the side
+                                </a>
+                            </h3>
+                            <div class="user">
+                                <a class="username" href="#">       
+                                    <span>Yusuke Saio</span>      
+                                </a>     
+                            </div>
+                        </div>
+                        <div class = "stats">
+                            <a class="stat" href="#">
+                                <i class="fas fa-eye"></i>
+                                130
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-comment-alt"></i>
+                                0
+                                <span class="hidden"></span>
+                            </a>
+                            <a class="stat" href="#">
+                                <i class="fas fa-heart"></i>
+                                2
+                                <span class="hidden"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "next">
+                <button class="next-btn"><span >Next <i class="fas fa-chevron-right"></i></span></button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="assets/js/site.js"></script>
+    </body>
+</html>
